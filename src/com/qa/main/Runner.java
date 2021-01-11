@@ -6,7 +6,9 @@ public class Runner {
 		
 		Methods mtds = new Methods();
 		
-		mtds.fizzBuzz(100);
+		mtds.fizzBuzz(16);
+		mtds.fizzBuzz(-16);
+		mtds.fizzBuzz(0);
 		
 	}
 
