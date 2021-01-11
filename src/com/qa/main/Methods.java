@@ -18,7 +18,6 @@ public class Methods {
 			output = output + i;
 		}
 
-		System.out.println(output);
 		return output;
 		
 	}
@@ -27,22 +26,19 @@ public class Methods {
 		
 		if ( length < 0 ) {
 			
-			for (int i = -1 ; i >= length; i--) {
-				
-				logic(i);
-			
+			for (int i = -1 ; i >= length; i--) {		
+				System.out.println( logic(i) ); 
 			}	
-			
+	
 		} else if ( length > 0 ) {
 			
 			for (int i = 1 ; i <= length; i++) {
-			
-				logic(i);
-			
+				System.out.println( logic(i) ); 
 			}
-			
 		} else {
-			System.out.println("0");
+			
+			System.out.println( "0" );
+			
 		}
 			
 	}
