@@ -51,6 +51,7 @@ public class Methods {
 			for (int i = 1 ; i <= length; i++) {
 				System.out.println( logic(i) ); 
 			}
+			
 		} else {
 			
 			System.out.println( "0" );
